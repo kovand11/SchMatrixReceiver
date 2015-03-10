@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=SchMatrixRecevier.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\SchMatrixRecevier -TC:\CooCox\CoIDE\configuration\ProgramData\SchMatrixRecevier/arm-gcc-link.ld -g">
+      <target file="SchMatrixRecevier.elf" lastModified="14c049b52bb">
+         <source file="..\obj\semihosting.o" lastModified="14c0451c631"/>
+         <source file="..\obj\delay.o" lastModified="14c0454ffb6"/>
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="14c0451c6fd"/>
+         <source file="..\obj\gtrax_v0_bsp.o" lastModified="14c047a755f"/>
+         <source file="..\obj\main.o" lastModified="14c049b501b"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="14c0451c7b8"/>
+         <source file="..\obj\printf.o" lastModified="14c0451c835"/>
+         <source file="..\obj\stm32f0xx_spi.o" lastModified="14c0451c8d1"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="14c0451c95e"/>
+         <source file="..\obj\gtrax_rfm70.o" lastModified="14c045500cf"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="14c0451ca1a"/>
+         <source file="..\obj\sh_cmd.o" lastModified="14c0451ca39"/>
+         <source file="..\obj\syscalls.o" lastModified="14c0451caa6"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="14c0451cbb9"/>
+         <source file="..\obj\stm32f0xx_exti.o" lastModified="14c0451cc26"/>
+      </target>
+   </processor>
+</history>

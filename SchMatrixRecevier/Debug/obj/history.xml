@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\SchMatrixRecevier\semihosting -I..\..\..\workspace\SchMatrixRecevier\stm32_lib\inc -I..\..\..\..\..\Users\kovand11\Downloads\MatrixAdo_2 -I..\..\..\workspace\SchMatrixRecevier\stm32_lib -I..\..\..\workspace -I..\..\..\..\..\Users\kovand11\Downloads\MatrixAdo_2\MatrixAdo -I..\..\..\workspace\SchMatrixRecevier -I..\..\..\..\..\Users\kovand11\Downloads -I..\..\..\workspace\SchMatrixRecevier\cmsis_boot -I..\..\..\workspace\SchMatrixRecevier\cmsis_core">
+      <target file="syscalls.o" lastModified="14c0451caa6">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="14c043c791c"/>
+      </target>
+      <target file="gtrax_rfm70.o" lastModified="14c045500cf">
+         <source file="..\..\..\..\..\..\..\Users\kovand11\Downloads\MatrixAdo_2\MatrixAdo\gtrax_rfm70.c" lastModified="14c0447366c"/>
+      </target>
+      <target file="stm32f0xx_spi.o" lastModified="14c0451c8d1">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_spi.c" lastModified="14c043cf7ef"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="14c0451ca1a">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="14c043cdc68"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="14c0451c6fd">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="14c043cdc96"/>
+      </target>
+      <target file="printf.o" lastModified="14c0451c835">
+         <source file="..\..\..\stdio\printf.c" lastModified="14c044176e9"/>
+      </target>
+      <target file="gtrax_v0_bsp.o" lastModified="14c047a755f">
+         <source file="..\..\..\..\..\..\..\Users\kovand11\Downloads\MatrixAdo_2\MatrixAdo\gtrax_v0_bsp.c" lastModified="14c047a72a0"/>
+      </target>
+      <target file="main.o" lastModified="14c049b501b">
+         <source file="..\..\..\main.c" lastModified="14c049b4daa"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="14c0451ca39">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="14c043c791c"/>
+      </target>
+      <target file="semihosting.o" lastModified="14c0451c631">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="14c043c790c"/>
+      </target>
+      <target file="stm32f0xx_tim.o" lastModified="14c0451cbb9">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_tim.c" lastModified="14c043d618f"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="14c0451c7b8">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="14c043ca07d"/>
+      </target>
+      <target file="stm32f0xx_exti.o" lastModified="14c0451cc26">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_exti.c" lastModified="14c043d426e"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="14c0451c95e">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="14c043ca07d"/>
+      </target>
+      <target file="delay.o" lastModified="14c0454ffb6">
+         <source file="..\..\..\..\..\..\..\Users\kovand11\Downloads\MatrixAdo_2\MatrixAdo\delay.c" lastModified="14c0447364d"/>
+      </target>
+   </processor>
+</history>
